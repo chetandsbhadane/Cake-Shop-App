@@ -1,0 +1,117 @@
+/* body {
+    opacity: 1;
+    background-image: url('/img/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+} */
+
+.demo-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    background-image: url('/img/background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #menu-span {
+    padding-right: 7px;
+    color: #64FFDA;
+  }
+
+
+  /* body css style */
+
+body {
+    /* background-color: #0A192F; */
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+
+/* Responsive CSS */
+@media screen and (max-width: 990px) {
+    #para-pad {
+        margin-left: -100px;
+    }
+  }
+
+  .ml-auto {
+    left: auto !important;
+    right: 0px;
+  }
+  
+  #para-pad {
+    padding-left: 100px; text-align: justify; color: aliceblue;
+  }
+
+  #menu-name {
+    color: black;
+  }
+
+  #menu-span {
+    padding-right: 7px;
+    color: #64FFDA;
+  }
+
+   #navbarSupportedContent
+{
+   font-size: 20px;
+}
+
+.navbar-brand {
+    color: rgb(204, 214, 246);
+}
+
+
+/* Hover part */
+.navbar-brand:hover {
+    color: #64FFDA;
+}
+
+.navbar-brand img {
+    border-radius: 40px;
+}
+
+#name-02 {
+  color: #CCD6f6;
+  font-size: 80px;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+.name-01 {
+  color: #64FFDA;
+}
+
+
+/* Responsive CSS */
+@media screen and (max-width: 800px) {
+  .name-01 {
+      font-size: 20px;
+  }
+  #name-02{
+      font-size: 50px;
+  }
+}
+
+
+#title-id {
+  /* margin-left: 50px; */
+  font-size: 30px;
+  /* margin-bottom: -10px; */
+  margin-top: -10px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+
