@@ -114,4 +114,211 @@ body {
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
 }
 
+#btn-hover {
+  color: black;
+}
 
+#btn-hover:hover{
+    
+    background-color: #6879FC;
+    color: white;
+    width: max-content;
+    border-radius: 5px;
+}
+
+
+/* media queries please dont touch this and dont change */
+@media screen and (min-width: 900px) {
+  .carousel-inner{
+    height: 400px;
+  }
+ 
+  #back-img-1 {
+    width: fit-content; 
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
+}
+
+
+#media-query-buy-btn{
+  font-size: 25px;
+  margin-bottom: 150px;
+}
+
+.buy-now-btn {
+  /* margin-left: 200px; */
+  display: inline-block;
+  width: 200px;
+  height: 60px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #DC3545;
+}
+
+@media screen and (min-width: 900px) {
+  #media-query-buy-btn{
+    margin-left: 20px;
+  }
+  .buy-now-btn{
+    margin-inline-start: 40px;
+    margin-top: 60px;
+  }
+
+  #cupcake-h5{
+    margin-top: -50px; 
+    font-size: 45px; 
+    color: #000000;
+    font-weight: bold;
+  }
+  #cupcake-p-1{
+    font-size: 30px; 
+    color: darkslategrey;
+  }
+
+  #cupcake-h5-2{
+    margin-top: -50px; 
+    font-size: 45px; 
+    color: white;
+    font-weight: bold;
+  }
+  #cupcake-p-2{
+    font-size: 30px; 
+    /* margin-bottom: -350px; */
+    color: whitesmoke;
+  }
+
+  #media-query-buy-btn-4{
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .buy-now-btn-2{
+    margin-inline-start: 100px;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #DC3545;
+  }
+
+  #cupcake-h5-3{
+    margin-top: -50px; 
+    font-size: 45px; 
+    color: #000000;
+    font-weight: bold;
+  }
+  #cupcake-p-3{
+    font-size: 30px; 
+    /* margin-bottom: -350px; */
+    color: darkslategrey;
+  }
+
+  .buy-now-btn-3{
+    margin-inline-start: 140px;
+    margin-top: 170px;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #DC3545;
+  }
+  #inner-div-3{
+    margin-bottom: 130px;
+  }
+  #big-screen-id-1{
+    margin-left: 110px;
+  }
+  #border-to-carousel-items{
+    border-radius: 5px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .carousel-inner{
+    border: 10px black;
+    height: 300px;
+  }
+  #media-query-buy-btn{
+    display: inline-block;
+  }
+  #cupcake-h5{
+    margin-bottom: 20px; 
+    font-size: 30px; 
+    color: #000000;
+    font-weight: bold;
+  }
+  #cupcake-p-1{
+    font-size: 20px; color: darkslategrey;
+  }
+  #cupcake-h5-2{
+    margin-bottom: 20px;
+    /* margin-top: 30px;  */
+    font-size: 30px; 
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  #media-query-buy-btn-4{
+    display: inline-block;
+    margin-bottom: 110px;
+  }
+
+  #cupcake-p-2{
+    font-size: 20px; color: whitesmoke;
+    /* margin-bottom: 150px; */
+    font-weight: 900;
+  }
+
+  .buy-now-btn-2{
+    display: inline-block;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #DC3545;
+  }
+
+  #cupcake-h5-3{
+    margin-bottom: 10px; 
+    font-size: 30px; 
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #cupcake-p-3{
+    font-size: 20px; 
+    color: white;
+    margin-top: 10px;
+  }
+
+  .buy-now-btn-3{
+    display: inline-block;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #DC3545;
+  }
+  
+}
